@@ -1,0 +1,6 @@
+			<form action="../수강관리/Class_Enrolment.jsp" method="post">
+				<p>수강신청</p>
+				<p>수강하고자하는 수업의 학수번호를 입력</p>
+				<p>학수번호<input type="text" name="class_number" placeholder="학수번호 입력"></p>
+				<input type="submit" name="submit" value="신청">
+			</form>

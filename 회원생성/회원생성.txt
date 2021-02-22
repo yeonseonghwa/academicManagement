@@ -1,0 +1,8 @@
+		<form action="../회원생성/makeVip.jsp" method="post">
+			<p>학생이나 교수 계정 만들기(사용자 등급은 : root,student,professor 로 나눠진다.)</p>
+			<p>id(학번 겸 계정 아이디) : <input type="text" name="id" placeholder="학번입력"></p>
+			<p>비밀번호 : <input type="text" name="pw" placeholder="비밀번호"></p>
+			<p>학생혹은 교수이름 : <input type="text" name="name" placeholder="이름"></p>
+			<p>등급 : <input type="text" name="level" placeholder="사용자가 소유하는 등급"></p>
+			<input id="makeVipButton" type="submit" name="submit" value="등록">
+		</form>

@@ -1,0 +1,15 @@
+		<form action="../교과관리/Class_Management_Delete.jsp" method="post">
+			<p>교과 정보 관리</p>
+			<p>삭제하고자 하는 과목의 학수번호를 입력</p>
+			<p>학수번호 : <input type="text" name="class_number" placeholder="학수번호입력"></p>
+			<input type="submit" name="submit" value="삭제">
+		</form>
+		<br/><br/><br/><br/><br/>
+		<form action="../교과관리/Class_Management_Update.jsp" method="post">
+			<p>업데이트하고자 하는 과목의 학수번호를 입력</p>
+			<p>학수번호 : <input type="text" name="class_number" placeholder="학수번호입력"></p>
+			<p>new과목이름 : <input type="text" name="class_name_new" placeholder="과목이름입력"></p>
+			<p>new교수이름 : <input type="text" name="professor_new" placeholder="교수이름입력"></p>
+			<p>new강의시간 : <input type="text" name="lecture_time_new" placeholder="강의시간입력"></p>
+			<input type="submit" name="submit" value="업데이트">
+		</form>

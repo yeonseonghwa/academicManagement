@@ -1,0 +1,6 @@
+		<form action="../수강관리/Syllabus_Upload.jsp" method="post">
+			<p>강의 계획서 등록</p>
+			<p>학수번호 : <input type="text" name="class_number" placeholder="학수번호입력"></p>
+			<p>개요 : <input type="text" name="topic" placeholder="강의계획서 입력"></p>
+			<input type="submit" name="submit" value="등록">
+		</form>

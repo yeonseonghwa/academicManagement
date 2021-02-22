@@ -1,0 +1,8 @@
+		<form action="../교과관리/Class_Upload.jsp" method="post">
+			<p>교과 정보 등록</p>
+			<p>학수번호 : <input type="text" name="class_number" placeholder="학수번호입력"></p>
+			<p>교과이름 : <input type="text" name="class_name" placeholder="교과이름입력"></p>
+			<p>교수이름 : <input type="text" name="professor" placeholder="교수이름입력"></p>
+			<p>강의시간 : <input type="text" name="lecture_time" placeholder="강의시간입력"></p>
+			<input type="submit" name="submit" value="등록">
+		</form>
